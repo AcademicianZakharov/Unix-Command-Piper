@@ -1,16 +1,7 @@
 /* gopipe.c
  *
- * CSC 360, Summer 2023
- *
- * Execute up to four instructions, piping the output of each into the
- * input of the next.
- *
- * Please change the following before submission:
- *
  * Author: Gabriel Maryshev
  */
-/* Note: The following are the **ONLY** header files you are
- * permitted to use for this assignment! */
 
 #include <unistd.h>
 #include <string.h>
@@ -21,7 +12,7 @@
 void pipe4(char **cmd_1, char** cmd_2, char** cmd_3, char** cmd_4){
     int status;
     int pid_1, pid_2, pid_3, pid_4;
-    int fd_1[2], fd_2[2], fd_3[2];//idea to use multiple fds is from chatgpt
+    int fd_1[2], fd_2[2], fd_3[2];
 
     (void)pipe(fd_1); 
     (void)pipe(fd_2);
