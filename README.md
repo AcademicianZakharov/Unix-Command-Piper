@@ -4,14 +4,14 @@ example for:<br>
 gcc --help | grep dump | tr ’[:lower:]’ ’[:upper:]’ | sort<br>
 
 /usr/bin/gcc --help<br>
-/usr/bin/grep dump
-/usr/bin/tr ’[:lower:]’ ’[:upper:]’
-/usr/bin/sort
+/usr/bin/grep dump<br>
+/usr/bin/tr ’[:lower:]’ ’[:upper:]’<br>
+/usr/bin/sort<br>
 
-will output:
--DUMPMACHINE             DISPLAY THE COMPILER'S TARGET PROCESSOR.
--DUMPSPECS               DISPLAY ALL OF THE BUILT IN SPEC STRINGS.
--DUMPVERSION             DISPLAY THE VERSION OF THE COMPILER.
+will output:<br>
+-DUMPMACHINE             DISPLAY THE COMPILER'S TARGET PROCESSOR.<br>
+-DUMPSPECS               DISPLAY ALL OF THE BUILT IN SPEC STRINGS.<br>
+-DUMPVERSION             DISPLAY THE VERSION OF THE COMPILER.<br>
 
-compile compile like so:
-gcc -Wall -Werror -std=c18 -o pipe pipe.c
+compile compile like so:<br>
+gcc -Wall -Werror -std=c18 -o pipe pipe.c<br>
