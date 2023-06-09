@@ -1,9 +1,9 @@
 # Unix-Command-Piper
-A program that can pipe different unix Unix commands with arguments together\n
-example for:\n
-gcc --help | grep dump | tr ’[:lower:]’ ’[:upper:]’ | sort\n
+A program that can pipe different unix Unix commands with arguments together <br>
+example for:<br>
+gcc --help | grep dump | tr ’[:lower:]’ ’[:upper:]’ | sort<br>
 
-/usr/bin/gcc --help
+/usr/bin/gcc --help<br>
 /usr/bin/grep dump
 /usr/bin/tr ’[:lower:]’ ’[:upper:]’
 /usr/bin/sort
