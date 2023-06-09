@@ -1,4 +1,4 @@
-/* gopipe.c
+/* pipe.c
  *
  * Author: Gabriel Maryshev
  */
