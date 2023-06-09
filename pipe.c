@@ -123,7 +123,6 @@ int main() {
     char input[4][MAX_INPUT_LINE];
     int usedLines = 0;
     //read the input
-    //here chatgpt helped me fix null characters
     for (int l = 0; l < 4; l++) {
         ssize_t bytesRead = read(0, input[l], sizeof(input[l]));
         if (bytesRead <= 0) {
@@ -148,8 +147,7 @@ int main() {
         }
         usedLines++;
     }
-    //end of some code from chatgpt
-    //tokenize the input most code from appendix d
+
     char *token[MAX_NUM_TOKENS];
     char *t;
     int  num_tokens;
