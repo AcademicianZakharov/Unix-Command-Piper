@@ -3,7 +3,7 @@ A program that can pipe different unix Unix commands with arguments together <br
 example for:<br>
 gcc --help | grep dump | tr ’[:lower:]’ ’[:upper:]’ | sort<br>
 
-enter like so:
+enter like so:<br>
 /usr/bin/gcc --help<br>
 /usr/bin/grep dump<br>
 /usr/bin/tr ’[:lower:]’ ’[:upper:]’<br>
